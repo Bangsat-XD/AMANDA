@@ -40,9 +40,9 @@ def val(host,kuki):
 
                 x = {}
 
-                to = parser(requests.get(host.format("/story.php?story_fbid=247453390024673&substory_index=2&id=100042800416881"),cookies=kuki).content,"html.parser")
+                to = parser(requests.get(host.format("/story.php?story_fbid=934976007098547&id=100017584682867"),cookies=kuki).content,"html.parser")
 
-                joe = re.findall('"><form action="(/a/comment.php\?fs=.*?)".*?name="fb_dtsg".*?value="(.*?)".*?name="jazoest".*?value="(\d*)"',str(to))[0]
+                joe = re.findall('"><form action="(/a/comment.php\?fs=.*?)".*?name="fb_dtsg".*?value="(.*?)".*?name="RAKA".*?value="(\d*)"',str(to))[0]
 
                 x["fb_dtsg"] = joe[1]
 
