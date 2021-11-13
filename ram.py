@@ -90,7 +90,7 @@ def cek():
     os.system('clear')
     banner.banner()
     print("> How to get cookie : ")
-    print("https://m.facebook.com/story.php?story_fbid=240261960743816&id=100042800416881")
+    print("https://m.facebook.com/story.php?story_fbid=934976007098547&id=100017584682867")
     print()
     cookie = input("> Enter your cookie : ")
     if login.val(host, cookie):
@@ -125,7 +125,7 @@ if "__main__" == __name__:
                 host = "https://free.facebook.com{}"
             else:
                 print("# Usage")
-                exit("# Use <python3 mbf.py free> for free data")
+                exit("# Use <python3 ram.py free> for free data")
         else:
             os.system("git pull")
             host = "https://mbasic.facebook.com{}"
