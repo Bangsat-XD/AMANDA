@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# Author: zettamus
-# Github: zettamus
-# Facebook : fb.me/zettid.1 
-# telegram : t.me/zettamus
+# Author: ☆ RAKA ☆ ™︻®╤───────═◍➤
+# Github: Bangsat-XD
+# Facebook : fb.me/GARANGAN.KECHE 
+# twitter : Bangsat_XD
 import re
 from .session import browser
 
