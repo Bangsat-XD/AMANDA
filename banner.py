@@ -9,7 +9,7 @@ def banner():
   _\ \  / /|_/ // _  |/ _/
  /___/ /_/  /_//____//_/ v{2}1.1{0}dev.
  {1}[ {2}Simple Multi-Bruteforce{1} ]{1} 
- {1} [ {2}Created by : Zettamus{1} ]{1}
+ {1} [ {2}Created by : Bangsat-XD{1} ]{1}
             """.format(C,r,G))
 def menu():
     print(f"{C}1{r} from friendlist")
